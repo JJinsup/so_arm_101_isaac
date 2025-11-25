@@ -1,30 +1,23 @@
 # Isaac Lab – SO‑ARM100 / SO‑ARM101 Project
 
-[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0/5.0.0-green.svg)](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
-[![IsaacLab](https://img.shields.io/badge/IsaacLab-2.2.0-green.svg)](https://isaac-sim.github.io/IsaacLab/main/index.html)
-[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://docs.python.org/3/whatsnew/3.11.html)
-[![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/22.04/)
-[![Windows platform](https://img.shields.io/badge/platform-windows--64-orange.svg)](https://www.microsoft.com/en-us/)
-[![DOI](https://zenodo.org/badge/968772915.svg)](https://zenodo.org/badge/latestdoi/968772915)
-[![License](https://img.shields.io/badge/license-BSD--3-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![ci-test](https://img.shields.io/github/actions/workflow/status/MuammerBay/isaac_so_arm101/ci-test.yml?branch=main)](https://github.com/MuammerBay/isaac_so_arm101/actions/workflows/ci-test.yml)
-
-This repository implements tasks for the SO‑ARM100 and SO‑ARM101 robots using Isaac Lab. It serves as the foundation for several tutorials in the LycheeAI Hub series [Project: SO‑ARM101 × Isaac Sim × Isaac Lab](https://lycheeai-hub.com/project-so-arm101-x-isaac-sim-x-isaac-lab-tutorial-series).
-
-### 📰 News featuring this repository:
-
-- **10 June 2025:** 🎥 LycheeAI Channel Premiere: SO-ARM101 tutorial series announcement! [🔗 Watch on YouTube](https://www.youtube.com/watch?v=2uH7Zn4SAVI)
-- **23 April 2025:** 🤖 NVIDIA Omniverse Livestream: Training a Robot from Scratch in Simulation (URDF → OpenUSD). [🔗 Watch on YouTube](https://www.youtube.com/watch?v=_HMk7I-vSBQ)
-- **19 April 2025:** 🎥 LycheeAI Tutorial: How to Create External Projects in Isaac Lab. [🔗 Watch on YouTube](https://www.youtube.com/watch?v=i51krqsk8ps)
-
-### 🤖 Don’t have a SO-ARM? → Buy one with a Discount: `LYCHEEAI5` !
-
-There are official vendors who sell all the required parts and already assembled kits such as WowRobo who sponsor this project. Use code `LYCHEEAI5` at checkout for a 5% discount on the [SO-ARM101](https://shop.wowrobo.com/?sca_ref=8879221). Now also for [LeKiwi](https://shop.wowrobo.com/products/lekiwi-mobile-robot).
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-5.0.0-000000?style=flat-square&logo=nvidia&logoColor=white)
+![Isaac Lab](https://img.shields.io/badge/Isaac_Lab-main-00AA88?style=flat-square&logo=python&logoColor=white)
+![Isaac Lab Internal](https://img.shields.io/badge/isaaclab-0.48.5-blue?style=flat-square)
 
 
-### 🎬 Watch the Lift Task in action
+## Environment (Tested Setup)
 
-![rl-video-step-0](https://github.com/user-attachments/assets/890e3a9d-5cbd-46a5-9317-37d0f2511684)
+| 구성 요소 | 세부 사양 |
+|----------|-----------|
+| CPU / RAM | Intel i9-10900X / 188GB |
+| OS | Ubuntu 22.04.5 (kernel 6.8.0-87-generic) |
+| GPU | RTX 3090 × 2 |
+| NVIDIA-SMI | 575.57.08 |
+| CUDA | 12.9 |
+| Isaac Lab | `main` branch (Commit Hash: `2ed331acfc`) |
+| Python | 3.11 |
 
 ## 🛠️ Installation
 

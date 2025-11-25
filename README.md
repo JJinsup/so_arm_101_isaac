@@ -80,19 +80,6 @@ python scripts/rsl_rl/play.py --task SO-ARM100-Reach-Play-v0
 
 This ensures that your policy performs as expected in Isaac Lab before attempting real‑world transfer.
 
-## 🧩 Sim2Sim Transfer
-
-_Work in progress._
-
-## 🛠️ Sim2Real Transfer
-
-_Work in progress._
-
-## 🤝 Contributing
-
-We welcome contributions of all kinds!
-Please read our [Contributing Guide](CONTRIBUTING.md) to learn how to set up your environment, follow our coding style, and submit pull requests.
-
 ## 📄 License
 
 This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICENSE) file for details.
@@ -106,25 +93,9 @@ This project builds upon the excellent work of several open-source projects and 
 - **[RSL-RL](https://github.com/leggedrobotics/rsl_rl)** - Reinforcement learning library used for training policies
 - **[SKRL](https://github.com/Toni-SM/skrl)** - Alternative RL library integration
 - **[SO-ARM100/SO-ARM101 Robot](https://github.com/TheRobotStudio/SO-ARM100)** - The hardware platform that inspired this simulation environment
+- **[SO-ARM100/SO-ARM101 Project](https://github.com/MuammerBay/isaac_so_arm101)** - 원본 프로젝트
 
-Special thanks to:
-
-- The Isaac Lab development team at NVIDIA for providing the simulation framework
-- Hugging Face and The Robot Studio for the SO‑ARM robot series
-- The LycheeAI Hub community for tutorials and support
-
-## 📚 Citation
-
-If you use this work, please cite it as:
-
-```bibtex
-@software{Louis_Isaac_Lab_2025,
-   author = {Louis, Le Lay and Muammer, Bay},
-   doi = {https://doi.org/10.5281/zenodo.16794229},
-   license = {BSD-3-Clause},
-   month = apr,
-   title = {Isaac Lab – SO‑ARM100 / SO‑ARM101 Project},
-   url = {https://github.com/MuammerBay/isaac_so_arm101},
-   version = {1.1.0},
-   year = {2025}
-}
+❌ 주의 사항
+1. LICENSE 파일(BSD 3-Clause 전문) 그대로 유지
+2. 저작권 문구(Copyright)
+3. 저작권자 이름을 가져다가 홍보/광고에 사용하는 것 금지
